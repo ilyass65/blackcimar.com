@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #222;
+    color: white;
+    font-family: system-ui;
+
+}
+#infor{
+    width: 80%;
+    margin: auto;
+
+}
+#readInfo{
+    width: 80%;
+    margin: auto;
+}
+#dash{
+    width: 80%;
+    margin: auto;
+}
+#head1{
+    text-align: center;
+}
+/*lets start with inputs*/
+input{
+    border: none;
+    height: 32px;
+    width: 100%;
+    background: #111;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    outline: none;
+    color: white;
+
+
+}
+input:focus{
+    background: #000;
+    transform: scale(1.1);
+     border: 1px solid rgb(8, 49, 255);
+}
+button{
+    width: 100%;
+    height: 30px;
+    background: #1a9e03;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+
+}
+#submit:hover{
+    background-color: #00ff26;
+    letter-spacing: 1px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+/*search*/
+#delete{
+    background: red;
+    display: block;
+}
+#deleteAll{
+    margin-top: 15px;
+}
+#deleteAll button{
+    display: none;
+    display: block;
+    width: 100%;
+    margin: auto;
+    background: red;
+    margin-top: px;
+
+}
+#update{
+    background: rgb(255, 111, 0);
+}
+#avatar{
+    height: 220px;
+    width: 183px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0.5px solid rgb(12, 215, 255);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+#workName{
+    text-align: center;
+    background-color: #000;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 2px;
+    border: 0.5px solid rgb(12, 215, 255);
+}
+#avatar:hover {
+    cursor: pointer;
+    
+}
+#workName{
+    margin-top: -3px;
+
+}
+
+#anime{
+    margin-bottom: 15px;
+}
+#readInfo{
+    display: flex;
+
+}
+#homeDive{
+    display: flex;
+
+}
+#miniWorkName{
+    background: none;
+}
+
+#miniAvatar{
+    height: 300px;
+    width: 160;
+    border: 1px solid rgb(43, 0, 255);
+}
